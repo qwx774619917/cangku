@@ -1,0 +1,149 @@
+Arithmetic类
+
+astr			返回答案字符串
+
+qstr			返回问题字符串
+
+int_operation()		整数计算函数
+
+fra_operation()		分数计算函数
+
+common_divisor(int m,int n)
+
+公约数计算函数
+
+toString()		输出函数
+
+Frame类
+
+hs			实例化History
+
+hh			实例化QA_List
+
+timer			实例化Work_Time
+
+Time			计时器动态窗口
+
+answer1~10		输入窗口
+
+Review			复习按钮
+
+question1~10		题目显示标签
+
+Right_answer1~10	正确答案显示标签
+
+Tip1~10 		提示正确与否标签
+
+Time_cost 		所花时间显示标签
+
+Right_percent		正确率显示标签
+
+Set_question 		开始按钮
+
+jLabel5			历史正确题数
+
+jLabel7			历史总题数
+
+rn			单次正确题数
+
+tot			单次总题数
+
+Frame()			Frame构造函数
+
+initComponents()	窗体显示
+
+xxxClicked(KeyEvent evt)	
+
+点击事件
+
+KeyPressed(JLabel i,JLabel j,JLabel l,int x,JTextField k)
+
+点击事件批量处理函数
+
+Hide()			使不需要的输入窗口关闭
+
+Tip(String answer,int i)提示对错并计入
+
+Histroy类
+
+qstr			问题字符串
+
+astr			答案字符串
+
+str			答案+问题字符串（写入文件）
+
+str2			正确题数+总题数字符串（写入文件）
+
+tot			总题数
+
+rn			正确题数
+
+qstrlist		问题字符串列（读入文件）
+
+astrlist		答案字符串列（读入文件）
+
+scan(String qstr,String astr)
+
+qstr+" "+astr
+
+scan2(int tot,int rn)
+
+tot+" "+rn
+
+Histroy_create()	历史文档生成
+
+Histroy_save()		存储历史题目与答案
+
+Histroy_saveNum()	存储历史题目数目
+
+Histroy_read()		读入历史题目与答案
+
+History_num()		读入历史题目数目
+
+QA_List类
+
+i			加入列题目个数
+
+Qusetion		问题字符串列
+
+Answer			答案字符串列
+
+QA_List()		QA_List构造函数
+
+Test_Number类
+
+i			显示Test_Number窗体次数
+
+l			语言转化参数标识
+
+Cancel_Button		取消按钮
+
+Sure_Button		确定按钮
+
+English			英文界面标签
+
+Simplified_Chinese	简体中文界面标签
+
+Traditional_Chinese	繁体中文界面标签
+
+Number			所需题数
+
+Test_Number()		Test_Number构造函数
+
+initComponents()	Test_Number窗体显示
+
+xxxClicked(KeyEvent evt)	
+
+点击事件
+
+Test类
+
+main(String[] args)	
+
+Work_Time类
+
+x			00：00.x
+
+y			00：y.00
+
+z			z:00.00
